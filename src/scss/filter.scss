@@ -1,0 +1,50 @@
+.filter {
+    width: 25%;
+
+    &-wrap {
+        display: grid;
+        grid: auto-flow 38px / repeat(2, 111px);
+    }
+
+    &__btn--show {
+        width: 90%;
+        color: #fff;
+        background: #2196F3;
+        padding: 8px 0;
+        margin: 0 0 10px;
+        letter-spacing: 0.03rem;
+        transition: .3s;
+    }
+
+    &__btn--clear {
+        width: 90%;
+        color: rgb(0, 0, 0);
+        background: #a7aaadc7;
+        padding: 8px 0;
+        margin: 0 0 10px;
+        letter-spacing: 0.03rem;
+        transition: .3s;
+    }
+
+    &__btn--clear:hover, &__btn--show:hover {
+        background: #060e13;
+        transition: .3s; 
+        color: #fff;  
+    }
+
+    &__title {
+        margin: 5px 0;
+        font-family: 'ProximaNova_Light';
+    }
+
+    input , label {
+        color: #666;
+        cursor: pointer;
+    }
+
+    input[type=checkbox] {
+        border-radius: 0.5px;
+    }
+    
+}
+    

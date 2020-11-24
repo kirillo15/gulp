@@ -1,0 +1,14 @@
+.message {
+    background: #0d574985;
+    position: absolute;
+    padding: 50px;
+    transform: translate(50%, -50%);
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+    display: none;
+
+    &.isActive {
+        display: block;
+    }
+}
